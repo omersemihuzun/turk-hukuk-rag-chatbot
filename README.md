@@ -47,6 +47,12 @@ pip install -r requirements.txt
 ```
 
 ### Ortam Değişkenleri
+**Güvenli yöntem (önerilen):**
+1. `.env.example` dosyasını `.env` olarak kopyalayın
+2. `.env` dosyasındaki API anahtarlarınızı doldurun
+3. `.env` dosyası `.gitignore`'da olduğu için GitHub'a yüklenmez
+
+**Manuel yöntem:**
 - `EMBEDDING_MODEL` (opsiyonel, varsayılan: sentence-transformers çok dilli MiniLM)
 - `GEMINI_API_KEY` (opsiyonel, Gemini kullanacaksanız)
 - `OPENAI_API_KEY` (opsiyonel, OpenAI kullanacaksanız)
