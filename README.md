@@ -36,7 +36,7 @@ Bu proje, `Renicames/turkish-law-chatbot` hukuk Soru-Cevap veri seti üzerinde R
 │  ├─ rag_pipeline.py         # Retriever, CrossEncoder ve LLM zinciri
 │  └─ utils.py                # Yardımcı fonksiyonlar (chunking, batching)
 └─ notebooks/
-   └─ RAG_BuyukSinema.ipynb   # Açıklamalı notebook (eski isim)
+   └─ RAG_Hukuk.ipynb   # Açıklamalı notebook (eski isim)
 ```
 
 ### Kurulum
@@ -85,7 +85,7 @@ Tarayıcıda açılan arayüzde Türkçe hukuki sorular sorabilir, RAG ile üret
 ### Deploy
 - Yerel çalıştırma için yukarıdaki adımlar yeterlidir.
 - İsteğe bağlı olarak Streamlit Community Cloud, Hugging Face Spaces (Gradio/Streamlit) veya Docker + herhangi bir PaaS üzerinde dağıtabilirsiniz.
-- Lütfen reponuzda canlı linki burada paylaşın: [Web Uygulaması](https://example.com) — bu bağlantıyı kendi dağıtım linkinizle güncelleyin.
+- [Web Uygulaması](https://example.com)
 
 ### Kaynaklar
 - Gemini API Docs: [ai.google.dev](https://ai.google.dev/gemini-api/docs)
