@@ -40,7 +40,7 @@ env/
 Thumbs.db
 
 # Project specific
-storage/
+# storage/  # FAISS indeksi için gerekli, deploy için eklenmeli
 *.log
 *.tmp
 
