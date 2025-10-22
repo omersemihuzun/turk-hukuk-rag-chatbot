@@ -7,9 +7,20 @@ Bu proje, `Renicames/turkish-law-chatbot` hukuk Soru-Cevap veri seti üzerinde R
 - Konuşma geçmişini analiz ederek bağlamsal devamlılık sağlamak.
 
 ### Veri Seti Hakkında
-- Veri seti: `Renicames/turkish-law-chatbot` — Türk hukuku Soru-Cevap çiftlerinden oluşur.
-- Anayasa, kanunlar, mevzuat ve temel hukuk kavramları hakkında 13K+ soru-cevap çifti içerir.
-- Bu projede hukuki sorular girildiğinde ilgili bağlamlar bulunup LLM ile yanıt zenginleştirilir.
+**Veri Seti:** `Renicames/turkish-law-chatbot`
+
+**İçerik:**
+- **13,354** Türkçe hukuk Soru-Cevap çifti
+- **Train:** 13,354 kayıt, **Test:** 1,500 kayıt
+- Anayasa, kanunlar, mevzuat ve temel hukuk kavramları
+- Türk hukuk sistemi, temel haklar, devlet yapısı konuları
+
+**Veri Yapısı:**
+- `Soru`: Hukuki soru metni
+- `Cevap`: Detaylı hukuki açıklama
+
+**Kullanım Amacı:**
+Bu projede hukuki sorular girildiğinde ilgili bağlamlar bulunup LLM ile yanıt zenginleştirilir. RAG sistemi sayesinde veri setindeki bilgilerden yararlanarak doğru ve bağlamsal hukuki yanıtlar üretilir.
 
 ### Kullanılan Yöntemler ve Mimariler
 - **RAG**: FAISS tabanlı yerel vektör indeksi + gömleme modeli + LLM üretimi.
