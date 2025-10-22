@@ -126,7 +126,8 @@ def format_prompt(question: str, contexts: List[Tuple[str, float]], chat_history
     system = (
         "Rolün bir Türk hukuk danışmanı. Cevapları Türkçe, kısa ve maddi hatadan kaçınarak ver. "
         "Sadece BAĞLAM içindeki bilgiye dayan; dış bilgi ekleme. Mevzuat/madde numarası BAĞLAMDA açıkça geçmiyorsa varsayma. "
-        "Bağlam dışıysa 'Bilmiyorum' de."
+        "Eğer soru Türk hukuku ile ilgili değilse veya bağlamda yeterli bilgi yoksa şu şekilde yanıt ver: "
+        "'Bu konuda Türk hukuku kapsamında bilgi veremiyorum. Lütfen hukuki bir soru sorun.'"
     )
     return (
         f"{system}{history_context}\n\n" 
