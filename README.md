@@ -6,6 +6,10 @@ Bu proje, `Renicames/turkish-law-chatbot` hukuk Soru-Cevap veri seti üzerinde R
 - Kullanıcının Türkçe hukuki sorularına, veri setinden ilgili bağlam parçalarını geri getirip büyük dil modeli ile zenginleştirilmiş yanıtlar üretmek.
 - Konuşma geçmişini analiz ederek bağlamsal devamlılık sağlamak.
 
+- <img width="1918" height="995" alt="Ekran görüntüsü 2025-10-22 204614" src="https://github.com/user-attachments/assets/880e791c-0aa8-44eb-9ab7-ffdd95aff851" />
+
+<img width="1918" height="985" alt="Ekran görüntüsü 2025-10-22 204654" src="https://github.com/user-attachments/assets/ce34edc7-8aa9-4b4d-8486-4976c491eb35" />
+
 ### Veri Seti Hakkında
 **Veri Seti:** `Renicames/turkish-law-chatbot`
 
@@ -47,8 +51,9 @@ Bu projede hukuki sorular girildiğinde ilgili bağlamlar bulunup LLM ile yanıt
 │  ├─ rag_pipeline.py         # Retriever, CrossEncoder ve LLM zinciri
 │  └─ utils.py                # Yardımcı fonksiyonlar (chunking, batching)
 └─ notebooks/
-   └─ RAG_Hukuk.ipynb   # Açıklamalı notebook (eski isim)
-```
+   └─ RAG_Hukuk.ipynb   # Açıklamalı notebook
+
+
 
 ### Kurulum
 ```bash
@@ -96,7 +101,7 @@ Tarayıcıda açılan arayüzde Türkçe hukuki sorular sorabilir, RAG ile üret
 ### Deploy
 - Yerel çalıştırma için yukarıdaki adımlar yeterlidir.
 - İsteğe bağlı olarak Streamlit Community Cloud, Hugging Face Spaces (Gradio/Streamlit) veya Docker + herhangi bir PaaS üzerinde dağıtabilirsiniz.
-- [Web Uygulaması](https://example.com)
+- [Web Uygulaması] https://turk-hukuk-rag-chatbot.streamlit.app/
 
 ### Kaynaklar
 - Gemini API Docs: [ai.google.dev](https://ai.google.dev/gemini-api/docs)
